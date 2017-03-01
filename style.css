@@ -1,6 +1,6 @@
 body {
-  background: #d3d3d3;
-  color: black;
+  background: #2c2c2c;
+  color: white;
   margin: 0 40px 0 40px;
 }
 
@@ -21,25 +21,25 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: purple;
+  color: #B0E0E6;
   display: block;
   transition: .3s background-color;
 }
 
 .nav a:hover {
-  color: green;
+  color: #FFA07A;
   background-color: inherit;
   border-radius: 10px;
 }
 
 a {
   text-decoration: none;
-  color: purple;
+  color: #B0E0E6;
   transition: .3s background-color;
 }
 
 a:hover {
-  color: green;
+  color: #FFA07A;
 }
 
 @media screen and (min-width: 600px) {
