@@ -111,13 +111,12 @@ footer {
   color: #2c2c2c
 }
 
-.nav a {
+footer a {
   text-decoration: underline;
   color: inherit;
-  display: block;
   transition: .3s background-color;
 }
 
 a:hover {
-  color: #FFA07A;
+  color: white;
 }

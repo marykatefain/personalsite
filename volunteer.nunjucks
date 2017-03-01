@@ -1,23 +1,16 @@
-<!DOCTYPE html>
-<html>
+{% extends "_base.nunjucks" %}
 
-<head>
-  <title>Mary Kate Fain - Volunteer</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-</head>
+{% block content %}
 
-<body>
-  <h1>My Volunteer Experience</h1>
+  <h2>My Volunteer Experience</h2>
   <div class="all_content">
     <div class="primary_content">
       <div class="volunteer">
 
         <div class="org">
-          <h2>Founder</h2>
-          <h3>Philly Animal Rights Alliance</h3>
-          <h4>2017-present</h4>
+          <h3>Founder</h3>
+          <h4>Philly Animal Rights Alliance</h4>
+          <h5>2017-present</h5>
           <ul>
             <li>Founded, leads, and organizes a coalition partnership between four major animal rights groups as well as a variety of independent activist factions</li>
             <li>Convinced groups which are regularly at odds with eachother to cooperate for a common goal</li>
@@ -26,9 +19,9 @@
         </div>
 
         <div class="org">
-          <h2>International Organizer</h2>
-          <h3>Direct Action Everywhere - Philadelphia</h3>
-          <h4>2016-present</h4>
+          <h3>International Organizer</h3>
+          <h4>Direct Action Everywhere - Philadelphia</h4>
+          <h5>2016-present</h5>
           <ul>
             <li>Organizes one monthy day of action as well as monthly social events and volunteer events</li>
             <li>Manages organization social media and press relations</li>
@@ -40,9 +33,9 @@
         </div>
 
         <div class="org">
-          <h2>Program Implementer</h2>
-          <h3>Girl Scouts of Eastern PA</h3>
-          <h4>2014-2015</h4>
+          <h3>Program Implementer</h3>
+          <h4>Girl Scouts of Eastern PA</h4>
+          <h5>2014-2015</h5>
           <ul>
             <li>Carried out regular lesson plans following Girl Scouts curriculum for girls ages 5 - 12</li>
             <li>Planned crafts, games, outings, and other activities for troup</li>
@@ -51,9 +44,9 @@
         </div>
 
         <div class="org">
-          <h2>Block Captain</h2>
-          <h3>Pottstown Downtown Improvement Assosiation</h3>
-          <h4>2014-2016</h4>
+          <h3>Block Captain</h3>
+          <h4>Pottstown Downtown Improvement Assosiation</h4>
+          <h5>2014-2016</h5>
           <ul>
             <li>Recruited local business to participate in downtown district events</li>
             <li>Helped coordinate local volunteer activity</li>
@@ -63,9 +56,9 @@
 
 
         <div class="org">
-          <h2>President</h2>
-          <h3>Active Minds at Ithaca College</h3>
-          <h4>2011-2013</h4>
+          <h3>President</h3>
+          <h4>Active Minds at Ithaca College</h4>
+          <h5>2011-2013</h5>
           <ul>
             <li>Grew club from 8 to 40 regular memebrs and developed executive baord of 8 other group leaders</li>
             <li>Planned and facilitated weekly club meetings and weekly board meetings</li>
@@ -84,5 +77,5 @@
 
 
   </div>
-</body>
-</html>
+
+{% endblock %}
