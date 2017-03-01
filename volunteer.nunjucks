@@ -9,7 +9,7 @@
 
         <div class="org">
           <h3>Founder</h3>
-          <h4>Philly Animal Rights Alliance (2017-present)</h4>
+          <h4 class="tight">Philly Animal Rights Alliance (2017-present)</h4>
           <ul>
             <li>Founded, leads, and organizes a coalition partnership between four major animal rights groups as well as a variety of independent activist factions</li>
             <li>Convinced groups which are regularly at odds with eachother to cooperate for a common goal</li>
@@ -19,7 +19,7 @@
 
         <div class="org">
           <h3>International Organizer</h3>
-          <h4>Direct Action Everywhere - Philadelphia (2016-present)</h4>
+          <h4 class="tight">Direct Action Everywhere - Philadelphia (2016-present)</h4>
           <ul>
             <li>Organizes one monthy day of action as well as monthly social events and volunteer events</li>
             <li>Manages organization social media and press relations</li>
@@ -32,7 +32,7 @@
 
         <div class="org">
           <h3>Program Implementer</h3>
-          <h4>Girl Scouts of Eastern PA (2014-2015)</h4>
+          <h4 class="tight">Girl Scouts of Eastern PA (2014-2015)</h4>
           <ul>
             <li>Carried out regular lesson plans following Girl Scouts curriculum for girls ages 5 - 12</li>
             <li>Planned crafts, games, outings, and other activities for troup</li>
@@ -42,7 +42,7 @@
 
         <div class="org">
           <h3>Block Captain</h3>
-          <h4>Pottstown Downtown Improvement Assosiation (2014-2016)</h4>
+          <h4 class="tight">Pottstown Downtown Improvement Assosiation (2014-2016)</h4>
           <ul>
             <li>Recruited local business to participate in downtown district events</li>
             <li>Helped coordinate local volunteer activity</li>
@@ -53,7 +53,7 @@
 
         <div class="org">
           <h3>President</h3>
-          <h4>Active Minds at Ithaca College (2011-2013)</h4>
+          <h4 class="tight">Active Minds at Ithaca College (2011-2013)</h4>
           <ul>
             <li>Grew club from 8 to 40 regular memebrs and developed executive baord of 8 other group leaders</li>
             <li>Planned and facilitated weekly club meetings and weekly board meetings</li>
@@ -66,10 +66,7 @@
       </div>
     </div>
 
-    <div class="sidebar">
-      <p>sidebar content</p>
-    </div>
-
+    {% include "skills.nunjucks" %}
 
   </div>
 

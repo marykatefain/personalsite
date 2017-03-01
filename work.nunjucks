@@ -9,7 +9,7 @@
 
         <div class="job">
           <h3>External Relations Coordinator</h3>
-          <h4>YWCA Tri-County Area, Pottstown PA (2015-2016)</h4>
+          <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2015-2016)</h4>
           <ul>
             <li>Developed and implemented new website and marketing strategy</li>
             <li>Designed and created over 50 unique flyers and brochures for a variety of programs</li>
@@ -20,7 +20,7 @@
 
         <div class="job">
           <h3>Programs Assistant and Social Media Coordinator</h3>
-          <h4>YWCA Tri-County Area, Pottstown PA (2014-2015)</h4>
+          <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2014-2015)</h4>
           <ul>
             <li>Executed new social media strategy and boosted followers by 400%</li>
             <li>Organized educational programs about gender-based violence</li>
@@ -29,7 +29,7 @@
 
         <div class="job">
           <h3>Office Manager</h3>
-          <h4>Advantage Insurance Group, Pottstown PA) 2013-2015</h4>
+          <h4 class="tight">Advantage Insurance Group, Pottstown PA) 2013-2015</h4>
           <ul>
             <li>Implemented a new CRM improving efficiency, customer service, and reducing unnecessary paper use by 50%</li>
             <li>Created promotional material including flyers, ads, and presentations</li>
@@ -40,7 +40,7 @@
 
         <div class="job">
           <h3>Education Intern</h3>
-          <h4>Advocacy Center of Tomkins County, Ithaca NY (2012)</h4>
+          <h4 class="tight">Advocacy Center of Tomkins County, Ithaca NY (2012)</h4>
           <ul>
             <li>Developed educational materials about domestic violence, sexual assault, and available services</li>
             <li>Assisted in coordinating major fundraisers and awareness events</li>
@@ -49,7 +49,7 @@
 
         <div class="job">
           <h3>Resident Assistant</h3>
-          <h4>Ithaca College Office of Residence Life, Ithaca NY (2011-2013)</h4>
+          <h4 class="tight">Ithaca College Office of Residence Life, Ithaca NY (2011-2013)</h4>
           <ul>
             <li>Organized regular floor and building-wide recreational and educational events for 30 - 300 first year students</li>
             <li>Provided counseling and support to students on a range of issues</li>
@@ -58,33 +58,7 @@
         </div>
       </div>
     </div>
-
-    <div class="sidebar">
-      <div class="details">
-        <h3>Education</h3>
-        <h4>B.S., Applied Psychology</h4>
-        <p>Ithaca College, NY</p>
-        <p>Graduated Cum Laude</p>
-        <p>Concentration in Neuroscience and minor in Anthropology</p>
-        <h4>Certified in HTML and CSS</h4>
-        <p>View HTML certificate</p>
-        <p>View CSS certificate</p>
-        <p>View Github Profile</p>
-        <h4>Other Technical Skills</h4>
-        <p>Web Development and Design</p>
-        <p>Javascript, Nunjucks, various CMSs</p>
-        <p>CRM Data Management (AgencyBloc, Salesforce)</p>
-        <p>Statistical Analysis, SPSS</p>
-        <p>Basic Graphic Design</p>
-        <h4>Other Skills</h4>
-        <p>Community Engagement</p>
-        <p>Event Planning</p>
-        <p>Project Management</p>
-        <p>Public Speaking</p>
-        <p>Social Media and Press</p>
-        <p>Conflict Management/Prevention</p>
-      </div>
-    </div>
+      {% include "skills.nunjucks" %}
   </div>
 
 {% endblock %}
