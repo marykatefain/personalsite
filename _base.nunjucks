@@ -9,7 +9,6 @@
   </head>
 
   <body>
-
     <header>
       <div class="title_and_nav">
         <div class="title">
@@ -27,17 +26,13 @@
       </div>
     </header>
 
-    <div class="all_content">
-
-      <div class ="face">
-        <img src="assets/images/face.jpg">
-      </div>
-
-      <div class="primary_content">
-        <h2>About Me</h2>
-        <p>I am a tech-savy activist with a dream to make the world a better place for all. I design and create original projects which help people and inspire empathy and action. My diverse range of experiences in neuroscience research, grass-roots activism, non-profit marketing, and  web design and development give me a uniquely wide base of skills from which to pull. In my spare time I organize Direct Action Everywhere's <a href="dxephilly.org" target="_blank">Philadelphia chapter</a>, the <a href="http://phillyara.surge.sh/" target="_blank">Philly Animal Rights Coalition</a>, and a burgeoning vegan housing co-op.</p>
-      </div>
-
+    <div class="content">
+      {% block content %}{% endblock %}
     </div>
+
+    <footer>
+      <p>This website is licenced under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
+    </footer>
+
   </body>
 </html>
