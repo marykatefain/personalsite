@@ -30,10 +30,6 @@ body {
   background-color: purple;
 }
 
-.nav a.active {
-  color: green;
-  background: black;
-}
 
 @media screen and (min-width: 600px) {
   .nav li {
