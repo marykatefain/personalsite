@@ -59,3 +59,9 @@ body {
   flex:1;
   margin-left:20px;
 }
+
+.face img {
+  width: 30vw;
+  border-radius: 100%;
+  margin-right: 20px;
+}
