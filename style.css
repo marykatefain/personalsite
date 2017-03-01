@@ -68,6 +68,11 @@ h2 {
   font-size: 32px;
 }
 
+h4 {
+  margin-top: -15px;
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
   color: #B0E0E6;
@@ -100,6 +105,17 @@ a:hover {
   width: 35vw;
   border-radius: 100%;
   margin-right: 40px;
+}
+
+.job {
+  margin-bottom: 40px;
+}
+
+
+.org {
+  margin-bottom: 40px;
+}
+
 }
 
 footer {
