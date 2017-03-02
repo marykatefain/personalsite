@@ -219,6 +219,14 @@ a:hover {
   display: none;
 }
 
+.hide {
+  display: none;
+  color: #B0E0E6;
+  padding-left: 40px;
+  font-style: italic;
+  cursor: pointer;
+}
+
 @media (max-width: 650px) {
   .mobile_hide {
     display: none;
@@ -228,6 +236,7 @@ a:hover {
     color: #B0E0E6;
     padding-left: 40px;
     font-style: italic;
+    cursor: pointer;
   }
 }
 
