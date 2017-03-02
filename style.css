@@ -44,10 +44,9 @@ body {
   display: block;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   color: #FFA07A;
-  background-color: inherit;
-  border-radius: 10px;
 }
 
 .title_and_nav {
