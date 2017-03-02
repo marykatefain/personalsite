@@ -15,7 +15,7 @@
             <a href="index.html">
               <div class="title">
                 <h1>Mary Kate Fain</h1>
-                <p class="subtitle">clever subtitle goes here</p>
+                <div class="subtitle">Hacktivist in training</div>
               </div>
             </a>
           <div class="nav">
