@@ -11,15 +11,6 @@
           <h3>External Relations Coordinator</h3>
           <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2015-2016)</h4>
           <div class="mobile_show" id="Details1" onclick="showDetails1()">See details</div>
-
-            <script>
-              function showDetails1() {
-                document.getElementById('YWdetails1').style.display = "inline-block";
-                document.getElementById('Details1').style.display = "none";
-                document.getElementById('hideDetails1').style.display = "inline";
-              }
-            </script>
-
           <ul class ="mobile_hide" id="YWdetails1">
             <li>Developed and implemented new website and marketing strategy</li>
             <li>Designed and created over 50 unique flyers and brochures for a variety of programs</li>
@@ -27,64 +18,110 @@
             <li>Served as the public face for the organization to the community</li>
           </ul>
           <div class="hide" id="hideDetails1" onclick="hideDetails1()">Hide details</div>
-
-          <script>
-            function hideDetails1() {
-              document.getElementById('YWdetails1').style.display = "none";
-              document.getElementById('Details1').style.display = "inline";
-              document.getElementById('hideDetails1').style.display = "none";
-            }
-          </script>
-
         </div>
-
-
-
 
         <div class="job">
           <h3>Programs Assistant and Social Media Coordinator</h3>
           <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2014-2015)</h4>
-          <div class="mobile_show">See details</div>
-          <ul class ="mobile_hide">
+          <div class="mobile_show" id="Details2" onclick="showDetails2()">See details</div>
+          <ul class ="mobile_hide" id="YWdetails2">
             <li>Executed new social media strategy and boosted followers by 400%</li>
             <li>Facilitated educational programs about gender-based violence</li>
             <li>Organized first Take Back the Night rally in Pottstown in support of victims of sexual assault and domestic abuse</li>
           </ul>
+          <div class="hide" id="hideDetails2" onclick="hideDetails2()">Hide details</div>
         </div>
 
         <div class="job">
           <h3>Office Manager</h3>
-          <h4 class="tight">Advantage Insurance Group, Pottstown PA) 2013-2015</h4>
-          <div class="mobile_show">See details</div>
-          <ul class ="mobile_hide">
+          <h4 class="tight">Advantage Insurance Group, Pottstown PA (2013-2015)</h4>
+          <div class="mobile_show" id="Details3" onclick="showDetails3()">See details</div>
+          <ul class ="mobile_hide" id="AIGdetails">
             <li>Implemented a new CRM improving efficiency, customer service, and reducing unnecessary paper use by 50%</li>
             <li>Created promotional material including flyers, ads, and presentations</li>
             <li>Oversaw daily operations of the office, client relationships, and managed office interns</li>
             <li>Designed and managed new company website</li>
           </ul>
+          <div class="hide" id="hideDetails3" onclick="hideDetails3()">Hide details</div>
         </div>
 
         <div class="job">
           <h3>Education Intern</h3>
           <h4 class="tight">Advocacy Center of Tomkins County, Ithaca NY (2012)</h4>
-          <div class="mobile_show">See details</div>
-          <ul class ="mobile_hide">
+          <div class="mobile_show" id="Details4" onclick="showDetails4()">See details</div>
+          <ul class ="mobile_hide" id="ACTCdetails">
             <li>Developed educational materials about domestic violence, sexual assault, and available services</li>
             <li>Assisted in coordinating major fundraisers and awareness events</li>
           </ul>
+          <div class="hide" id="hideDetails4" onclick="hideDetails4()">Hide details</div>
         </div>
 
         <div class="job">
           <h3>Resident Assistant</h3>
           <h4 class="tight">Ithaca College Office of Residence Life, Ithaca NY (2011-2013)</h4>
-          <div class="mobile_show">See details</div>
-          <ul class ="mobile_hide">
+          <div class="mobile_show" id="Details5" onclick="showDetails5()">See details</div>
+          <ul class ="mobile_hide" id="RAdetails">
             <li>Organized regular floor and building-wide recreational and educational events for 30 - 300 first year students</li>
             <li>Provided counseling and support to students on a range of issues, and provided resources and assistance when appropriate</li>
             <li>Completed regular judiciary reports and student logs</li>
           </ul>
+          <div class="hide" id="hideDetails5" onclick="hideDetails5()">Hide details</div>
         </div>
       </div>
+
+      <script>
+        function showDetails1() {
+          document.getElementById('YWdetails1').style.display = "inline-block";
+          document.getElementById('Details1').style.display = "none";
+          document.getElementById('hideDetails1').style.display = "inline";
+        }
+        function hideDetails1() {
+          document.getElementById('YWdetails1').style.display = "none";
+          document.getElementById('Details1').style.display = "inline";
+          document.getElementById('hideDetails1').style.display = "none";
+        }
+        function showDetails2() {
+          document.getElementById('YWdetails2').style.display = "inline-block";
+          document.getElementById('Details2').style.display = "none";
+          document.getElementById('hideDetails2').style.display = "inline";
+        }
+        function hideDetails2() {
+          document.getElementById('YWdetails2').style.display = "none";
+          document.getElementById('Details2').style.display = "inline";
+          document.getElementById('hideDetails2').style.display = "none";
+        }
+        function showDetails3() {
+          document.getElementById('AIGdetails').style.display = "inline-block";
+          document.getElementById('Details3').style.display = "none";
+          document.getElementById('hideDetails3').style.display = "inline";
+        }
+        function hideDetails3() {
+          document.getElementById('AIGdetails').style.display = "none";
+          document.getElementById('Details3').style.display = "inline";
+          document.getElementById('hideDetails3').style.display = "none";
+        }
+        function showDetails4() {
+          document.getElementById('ACTCdetails').style.display = "inline-block";
+          document.getElementById('Details4').style.display = "none";
+          document.getElementById('hideDetails4').style.display = "inline";
+        }
+        function hideDetails4() {
+          document.getElementById('ACTCdetails').style.display = "none";
+          document.getElementById('Details4').style.display = "inline";
+          document.getElementById('hideDetails4').style.display = "none";
+        }
+        function showDetails5() {
+          document.getElementById('RAdetails').style.display = "inline-block";
+          document.getElementById('Details5').style.display = "none";
+          document.getElementById('hideDetails5').style.display = "inline";
+        }
+        function hideDetails5() {
+          document.getElementById('RAdetails').style.display = "none";
+          document.getElementById('Details5').style.display = "inline";
+          document.getElementById('hideDetails5').style.display = "none";
+        }
+      </script>
+
     </div>
       {% include "skills.nunjucks" %}
   </div>

@@ -126,6 +126,12 @@ h4 {
   margin-top: -15px;
 }
 
+@media (max-width: 650px) {
+  .tight {
+    margin-bottom: 10;
+  }
+}
+
 p {
   max-width: 600px;
   line-height: 1.5;
