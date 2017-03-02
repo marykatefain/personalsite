@@ -1,6 +1,10 @@
 body {
   background: #2c2c2c;
   color: white;
+  margin: 0;
+}
+
+.wrap {
   margin: 0 40px 0 40px;
 }
 
@@ -144,7 +148,7 @@ footer {
   align-items: center;
   width: 100vw;
   background-color: #FFA07A;
-  margin: 60px 0px 0px -55px;
+  margin: 60px 0;
   padding: 20px 0 20px 0;
   color: #2c2c2c
 }
