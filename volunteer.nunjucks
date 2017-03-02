@@ -10,7 +10,8 @@
         <div class="org">
           <h3>Founder</h3>
           <h4 class="tight"><a href="http://phillyara.surge.sh/" target="_blank">Philly Animal Rights Alliance</a> (2017-present)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Founded, leads, and organizes a coalition partnership between four major animal rights groups as well as a variety of independent activist factions</li>
             <li>Convinced groups which are regularly at odds with eachother to cooperate for a common goal</li>
             <li>Currently planning major animal rights event (tba)</li>
@@ -21,7 +22,8 @@
         <div class="org">
           <h3>International Organizer</h3>
           <h4 class="tight"><a href="http://dxephilly.org/" target="_blank">Direct Action Everywhere - Philadelphia</a> (2016-present)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Organizes one monthy day of action as well as monthly social events and volunteer events</li>
             <li>Manages organization social media and press relations</li>
             <li>Developed and maintained organization website</li>
@@ -34,7 +36,8 @@
         <div class="org">
           <h3>Program Implementer</h3>
           <h4 class="tight">Girl Scouts of Eastern PA (2014-2015)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Carried out regular lesson plans following Girl Scouts curriculum for girls ages 5 - 12</li>
             <li>Planned crafts, games, outings, and other activities for troup</li>
             <li>Supervised feild trips to fun and educational events</li>
@@ -44,18 +47,30 @@
         <div class="org">
           <h3>Block Captain</h3>
           <h4 class="tight">Pottstown Downtown Improvement Assosiation (2014-2016)</h4>
-          <ul>
-            <li>Recruited local business to participate in downtown district events</li>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
+             <li>Recruited local business to participate in downtown district events</li>
             <li>Helped coordinate local volunteer activity</li>
             <li>Facilitaded conversatiosn between business owners and PDIDA regarding concerns and ideas</li>
           </ul>
         </div>
 
+        <div class="org">
+          <h3>Education Intern</h3>
+          <h4 class="tight">Advocacy Center of Tompkins County (2012)</h4>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
+            <li>Assisted in coordination of large fundraisers to support victims of sexual assault and domestic violence</li>
+            <li>Planned educational events and seminars on sexual abuse and domestic violence</li>
+            <li>Created original educational materials for use with college and school aged students</li>
+          </ul>
+        </div>
 
         <div class="org">
           <h3>President</h3>
           <h4 class="tight">Active Minds at Ithaca College (2011-2013)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Grew club from 8 to 40 regular memebrs and developed executive baord of 8 other group leaders</li>
             <li>Planned and facilitated weekly club meetings and weekly board meetings</li>
             <li>Oversaw six independent committees</li>

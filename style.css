@@ -215,6 +215,21 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.mobile_show {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .mobile_hide {
+    display: none;
+  }
+  .mobile_show {
+    display: inline;
+    color: #B0E0E6;
+    padding-left: 40px;
+    font-style: italic;
+  }
+}
 
 .org {
   margin-bottom: 40px;

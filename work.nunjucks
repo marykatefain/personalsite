@@ -10,7 +10,8 @@
         <div class="job">
           <h3>External Relations Coordinator</h3>
           <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2015-2016)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Developed and implemented new website and marketing strategy</li>
             <li>Designed and created over 50 unique flyers and brochures for a variety of programs</li>
             <li>Assisted Director of Fund Development in grant procurement</li>
@@ -21,7 +22,8 @@
         <div class="job">
           <h3>Programs Assistant and Social Media Coordinator</h3>
           <h4 class="tight">YWCA Tri-County Area, Pottstown PA (2014-2015)</h4>
-          <ul>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">
             <li>Executed new social media strategy and boosted followers by 400%</li>
             <li>Organized educational programs about gender-based violence</li>
           </ul>
@@ -30,8 +32,8 @@
         <div class="job">
           <h3>Office Manager</h3>
           <h4 class="tight">Advantage Insurance Group, Pottstown PA) 2013-2015</h4>
-          <ul>
-            <li>Implemented a new CRM improving efficiency, customer service, and reducing unnecessary paper use by 50%</li>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">            <li>Implemented a new CRM improving efficiency, customer service, and reducing unnecessary paper use by 50%</li>
             <li>Created promotional material including flyers, ads, and presentations</li>
             <li>Oversaw daily operations of the office, client relationships, and managed office interns</li>
             <li>Designed and managed new company website</li>
@@ -41,8 +43,8 @@
         <div class="job">
           <h3>Education Intern</h3>
           <h4 class="tight">Advocacy Center of Tomkins County, Ithaca NY (2012)</h4>
-          <ul>
-            <li>Developed educational materials about domestic violence, sexual assault, and available services</li>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">            <li>Developed educational materials about domestic violence, sexual assault, and available services</li>
             <li>Assisted in coordinating major fundraisers and awareness events</li>
           </ul>
         </div>
@@ -50,8 +52,8 @@
         <div class="job">
           <h3>Resident Assistant</h3>
           <h4 class="tight">Ithaca College Office of Residence Life, Ithaca NY (2011-2013)</h4>
-          <ul>
-            <li>Organized regular floor and building-wide recreational and educational events for 30 - 300 first year students</li>
+          <div class="mobile_show">See details</div>
+          <ul class ="mobile_hide">            <li>Organized regular floor and building-wide recreational and educational events for 30 - 300 first year students</li>
             <li>Provided counseling and support to students on a range of issues, and provided resources and assistance when appropriate</li>
             <li>Completed regular judiciary reports and student logs</li>
           </ul>
