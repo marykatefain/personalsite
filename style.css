@@ -42,7 +42,6 @@ body {
   text-decoration: none;
   color: #B0E0E6;
   display: block;
-  transition: .3s background-color;
 }
 
 .nav a:hover {
@@ -109,7 +108,7 @@ p {
 a {
   text-decoration: none;
   color: #B0E0E6;
-  transition: .3s background-color;
+  transition: .2s color;
 }
 
 a:hover {
@@ -169,7 +168,6 @@ footer {
 footer a {
   text-decoration: underline;
   color: inherit;
-  transition: .3s background-color;
 }
 
 footer p {
