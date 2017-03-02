@@ -1,21 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #2c2c2c;
   color: white;
-  margin: 0 40px 0 40px;
+  margin: 0;
+}
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title {
   width: 35vw;
+  padding-right: 40px;
+}
+
+.nav {
+  flex-grow: 1;
 }
 
 .nav ul {
   list-style: none;
   background-color: inherit;
-  border-radius: 10px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 0px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
 }
 
 .nav li {
@@ -27,13 +42,11 @@ body {
   text-decoration: none;
   color: #B0E0E6;
   display: block;
-  transition: .3s background-color;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   color: #FFA07A;
-  background-color: inherit;
-  border-radius: 10px;
 }
 
 .title_and_nav {
@@ -50,23 +63,18 @@ body {
   font-size: 1.4em;
   display: inline-block;
   position: relative;
-  margin: 0 auto;
-  width: 150px;
   text-align: left;
   flex-wrap: nowrap;
 }
 
 @media (max-width: 1140px) {
   .nav li {
-    padding-right: 50px;
-    width: auto;
     overflow: visible;
   }
 }
 
 @media (max-width: 1010px) {
   .nav li {
-    padding-right: 30px;
     width: auto;
     overflow: visible;
   }
@@ -93,12 +101,14 @@ h4 {
 
 p {
   max-width: 600px;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 a {
   text-decoration: none;
   color: #B0E0E6;
-  transition: .3s background-color;
+  transition: .2s color;
 }
 
 a:hover {
@@ -108,6 +118,7 @@ a:hover {
 .subtitle {
   color: #FFA07A;
   font-style: italic;
+  font-size: 1.5rem;
 }
 
 .all_content {
@@ -123,10 +134,15 @@ a:hover {
   margin-left:30px;
 }
 
-.face img {
+.face {
   width: 35vw;
+  padding-right: 40px;
+  margin: 26.56px 0;
+}
+
+.face img {
+  max-width: 100%;
   border-radius: 100%;
-  margin-right: 40px;
 }
 
 .job {
@@ -142,17 +158,15 @@ a:hover {
 footer {
   text-align: center;
   align-items: center;
-  width: 100vw;
   background-color: #FFA07A;
-  margin: 60px 0px 0px -55px;
-  padding: 20px 0 20px 0;
+  margin-top: 60px;
+  padding: 20px 0;
   color: #2c2c2c
 }
 
 footer a {
   text-decoration: underline;
   color: inherit;
-  transition: .3s background-color;
 }
 
 footer p {

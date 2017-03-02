@@ -9,38 +9,37 @@
   </head>
 
   <body>
-    <header>
-        <div class="title_and_nav">
-          <a href="index.html">
-            <div class="title">
-              <h1>Mary Kate Fain</h1>
-              <p class="subtitle">clever subtitle goes here</p>
-            </div>
-          </a>
-        <div class="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Resume</a></li>
-            <li><a href="volunteer.html">Volunteering</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+    <div class="wrap">
+      <header>
+          <div class="title_and_nav">
+            <a href="index.html">
+              <div class="title">
+                <h1>Mary Kate Fain</h1>
+                <div class="subtitle">Hacktivist in training</div>
+              </div>
+            </a>
+          <div class="nav">
+            <ul>
+              <li><a{% if current.source == 'index' %} class="active"{% endif %} href="/">Home</a></li>
+              <li><a{% if current.source == 'work' %} class="active"{% endif %} href="/work">Resume</a></li>
+              <li><a{% if current.source == 'contact' %} class="active"{% endif %} href="/contact">Contact</a></li>
+              <li><a{% if current.source == 'volunteer' %} class="active"{% endif %} href="/volunteer">Volunteering</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <div class="content">
-      {% block content %}{% endblock %}
+      <div class="content">
+        {% block content %}{% endblock %}
+      </div>
     </div>
 
     <footer>
-      <div class="foot">
-        <div class="social">
-          social icons go here
-        </div>
-
-        <p>This website is licenced under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
-
+      <div class="social">
+        social icons go here
       </div>
+
+      <p>This website is licensed under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
     </footer>
 
   </body>
