@@ -2,25 +2,33 @@
       <div class="details">
         <h3>Education</h3>
         <h4>B.S., Applied Psychology</h4>
-        <p>Ithaca College, NY</p>
-        <p>Graduated Cum Laude</p>
-        <p>Concentration in Neuroscience</p>
+        <ul>
+          <li>Ithaca College, NY</li>
+          <li>Graduated Cum Laude</li>
+          <li>Concentration in Neuroscience</li>
+        </ul>
         <h4>Certified in HTML and CSS</h4>
-        <p>View HTML certificate</p>
-        <p>View CSS certificate</p>
-        <p>View Github Profile</p>
+        <ul>
+          <li><a href="assets/HTML_cert.pdf" target="_blank">View HTML certificate</a></li>
+          <li><a href="assets/CSS.pdf" target="_blank">View CSS certificate</a></li>
+          <li><a href="https://github.com/marykatefain" target="_blank">View Github Profile</a></li>
+        </ul>
         <h4>Other Technical Skills</h4>
-        <p>Web Development and Design</p>
-        <p>Javascript, Nunjucks, various CMSs</p>
-        <p>CRM Data Management (AgencyBloc, Salesforce)</p>
-        <p>Statistical Analysis, SPSS</p>
-        <p>Basic Graphic Design</p>
+        <ul>
+          <li>Web Development and Design</li>
+          <li>Javascript, Nunjucks, various CMSs</li>
+          <li>CRM Data Management (AgencyBloc, Salesforce)</li>
+          <li>Statistical Analysis, SPSS</li>
+          <li>Basic Graphic Design</li>
+        </ul>
         <h4>Other Skills</h4>
-        <p>Community Engagement</p>
-        <p>Event Planning</p>
-        <p>Project Management</p>
-        <p>Public Speaking</p>
-        <p>Social Media and Press</p>
-        <p>Conflict Management/Prevention</p>
+        <ul>
+          <li>Community Engagement</li>
+          <li>Event Planning</li>
+          <li>Project Management</li>
+          <li>Public Speaking</li>
+          <li>Social Media and Press</li>
+          <li>Conflict Management</li>
+        </ul>
       </div>
     </div>

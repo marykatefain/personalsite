@@ -132,6 +132,11 @@ a:hover {
 .sidebar {
   flex:1;
   margin-left:30px;
+  color: #FFA07A;
+}
+
+.sidebar a:hover {
+  color: white;
 }
 
 .face {
@@ -152,6 +157,10 @@ a:hover {
 
 .org {
   margin-bottom: 40px;
+}
+
+.details li {
+
 }
 
 
@@ -175,6 +184,6 @@ footer p {
 }
 
 
-.foot a:hover {
+footer a:hover {
   color: white;
 }
