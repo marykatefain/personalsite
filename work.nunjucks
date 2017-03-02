@@ -67,7 +67,12 @@
           </ul>
           <div class="hide" id="hideDetails5" onclick="hideDetails5()">Hide details</div>
         </div>
+
       </div>
+
+      <a href="/skills"><div class="mobile_show"><div class="button">View Education and Skills</div></div></a>
+
+
 
       <script>
         function showDetails1() {
@@ -123,7 +128,9 @@
       </script>
 
     </div>
-      {% include "skills.nunjucks" %}
+    <div class="sidebar">
+      {% include "skills_list.nunjucks" %}
+    </div>
   </div>
 
 {% endblock %}

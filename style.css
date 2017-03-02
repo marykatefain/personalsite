@@ -250,8 +250,18 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.details li {
-
+.button {
+  display: block;
+  background-color: #B0E0E6;
+  width: 250px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: #2c2c2c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: normal;
 }
 
 
