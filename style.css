@@ -102,7 +102,8 @@ h4 {
 
 p {
   max-width: 600px;
-  line-height: 1.4;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 a {
@@ -118,7 +119,7 @@ a:hover {
 .subtitle {
   color: #FFA07A;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .all_content {
