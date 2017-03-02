@@ -22,8 +22,8 @@
             <ul>
               <li><a{% if current.source == 'index' %} class="active"{% endif %} href="/">Home</a></li>
               <li><a{% if current.source == 'work' %} class="active"{% endif %} href="/work">Resume</a></li>
+              <li><a{% if current.source == 'volunteer' %} class="active"{% endif %} href="/volunteer">Volunteer Work</a></li>
               <li><a{% if current.source == 'contact' %} class="active"{% endif %} href="/contact">Contact</a></li>
-              <li><a{% if current.source == 'volunteer' %} class="active"{% endif %} href="/volunteer">Volunteering</a></li>
             </ul>
           </div>
         </div>

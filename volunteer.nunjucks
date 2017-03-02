@@ -9,17 +9,18 @@
 
         <div class="org">
           <h3>Founder</h3>
-          <h4 class="tight">Philly Animal Rights Alliance (2017-present)</h4>
+          <h4 class="tight"><a href="http://phillyara.surge.sh/" target="_blank">Philly Animal Rights Alliance</a> (2017-present)</h4>
           <ul>
             <li>Founded, leads, and organizes a coalition partnership between four major animal rights groups as well as a variety of independent activist factions</li>
             <li>Convinced groups which are regularly at odds with eachother to cooperate for a common goal</li>
             <li>Currently planning major animal rights event (tba)</li>
+            <li>Developed organization website</li>
           </ul>
         </div>
 
         <div class="org">
           <h3>International Organizer</h3>
-          <h4 class="tight">Direct Action Everywhere - Philadelphia (2016-present)</h4>
+          <h4 class="tight"><a href="http://dxephilly.org/" target="_blank">Direct Action Everywhere - Philadelphia</a> (2016-present)</h4>
           <ul>
             <li>Organizes one monthy day of action as well as monthly social events and volunteer events</li>
             <li>Manages organization social media and press relations</li>
@@ -66,7 +67,7 @@
       </div>
     </div>
 
-    {% include "skills.nunjucks" %}
+    {% include "organizations.nunjucks" %}
 
   </div>
 
