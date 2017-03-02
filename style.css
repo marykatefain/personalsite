@@ -56,6 +56,21 @@ body {
   position: relative;
 }
 
+@media (max-width: 650px) {
+  .title_and_nav {
+    display: inline;
+  }
+
+  .title {
+    width: 90vw;
+    padding-bottom: 20px;
+  }
+
+  .nav {
+    margin-bottom: 20px;
+  }
+}
+
 .nav li {
   border-bottom: none;
   height: 50px;
@@ -80,10 +95,22 @@ body {
   }
 }
 
+@media (max-width: 650px) {
+  .nav li {
+    font-size: 4.5vw;
+  }
+}
+
 h1 {
   margin-bottom: 0px;
   color: #FFA07A;
-  font-size: 48px;
+  font-size: 4vw;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 11vw;
+  }
 }
 
 h2 {
@@ -118,11 +145,23 @@ a:hover {
 .subtitle {
   color: #FFA07A;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2vw;
+}
+
+@media (max-width: 650px) {
+  .subtitle {
+    font-size: 6vw;
+  }
 }
 
 .all_content {
   display: flex;
+}
+
+@media (max-width: 650px) {
+  .all_content {
+    display: inline-block;
+  }
 }
 
 .primary_content {
@@ -135,6 +174,12 @@ a:hover {
   color: #FFA07A;
 }
 
+@media (max-width: 650px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar a:hover {
   color: white;
 }
@@ -145,9 +190,25 @@ a:hover {
   margin: 26.56px 0;
 }
 
+@media (max-width: 650px) {
+  .face {
+    width: auto;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+}
+
+
 .face img {
   max-width: 100%;
   border-radius: 100%;
+}
+
+@media (max-width: 650px) {
+  .face img {
+    width: 90vw;
+    max-width: none;
+  }
 }
 
 .job {
