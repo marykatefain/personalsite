@@ -2,7 +2,7 @@
 
 {% block content %}
 
-  <h1>Contact</h1>
+  <h2>Contact</h2>
   <p>Email me at: mkfain1@gmail.com</p>
 
 {% endblock %}}
