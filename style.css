@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #2c2c2c;
   color: white;
@@ -5,21 +9,28 @@ body {
 }
 
 .wrap {
-  margin: 0 40px 0 40px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title {
   width: 35vw;
+  padding-right: 40px;
+}
+
+.nav {
+  flex-grow: 1;
 }
 
 .nav ul {
   list-style: none;
   background-color: inherit;
-  border-radius: 10px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 0px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
 }
 
 .nav li {
@@ -54,23 +65,18 @@ body {
   font-size: 1.4em;
   display: inline-block;
   position: relative;
-  margin: 0 auto;
-  width: 150px;
   text-align: left;
   flex-wrap: nowrap;
 }
 
 @media (max-width: 1140px) {
   .nav li {
-    padding-right: 50px;
-    width: auto;
     overflow: visible;
   }
 }
 
 @media (max-width: 1010px) {
   .nav li {
-    padding-right: 30px;
     width: auto;
     overflow: visible;
   }
@@ -129,10 +135,15 @@ a:hover {
   margin-left:30px;
 }
 
-.face img {
+.face {
   width: 35vw;
+  padding-right: 40px;
+  margin: 26.56px 0;
+}
+
+.face img {
+  max-width: 100%;
   border-radius: 100%;
-  margin-right: 40px;
 }
 
 .job {
