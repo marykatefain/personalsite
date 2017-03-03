@@ -1,5 +1,11 @@
     <div class="sidebar">
-      <div class="details">
-        Ugh what should I put here IDK
+      <div class="posts">
+        <h3>Latest Projects and Updates</h3>
+        <h4>The Start of a New Era</h4>
+        <div class="thumbnail">
+          <img src="assets/rat.jpg">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi libero, euismod finibus ex a, faucibus facilisis tellus. Mauris consequat consectetur cursus. Nam euismod nulla eu libero laoreet ultricies. Sed vehicula non libero at ornare. Aliquam non ante efficitur, feugiat sem quis, ultrices dolor. Nam libero sapien, tincidunt sit amet nulla ut, efficitur maximus metus. </p>
+        <div>read more</div>
       </div>
     </div>
