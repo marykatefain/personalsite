@@ -36,9 +36,8 @@
 
     <footer>
       <div class="social">
-        social icons go here
       </div>
-
+      <p>e: mkfain1@gmail.com | p: 610-914-7610 | <a href="https://www.linkedin.com/in/marykatefain">Connect on LinkedIn</a></p>
       <p>This website is licensed under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
     </footer>
 

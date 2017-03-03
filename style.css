@@ -281,7 +281,8 @@ footer a {
 
 footer p {
   text-align: center;
-  display: inline;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 
