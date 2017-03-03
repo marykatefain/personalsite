@@ -190,6 +190,24 @@ a:hover {
   color: white;
 }
 
+.thumbnail {
+  width: inherit;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.sidebar p {
+  font-size: 14px;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
 .face {
   width: 35vw;
   padding-right: 40px;

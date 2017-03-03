@@ -1,11 +1,32 @@
     <div class="sidebar">
-      <div class="posts">
+      <div class="updates">
         <h3>Latest Projects and Updates</h3>
-        <h4>The Start of a New Era</h4>
-        <div class="thumbnail">
-          <img src="assets/rat.jpg">
+        <div class="post">
+          <h4>The Start of a New Era</h4>
+          <div class="thumbnail">
+            <img src="assets/images/rat.jpg">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi libero, euismod finibus ex a, faucibus facilisis tellus. Mauris consequat consectetur cursus. Nam euismod nulla eu libero laoreet ultricies. Sed vehicula non libero at ornare. </p>
+          <a href="/"><div>read more</div></a>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi libero, euismod finibus ex a, faucibus facilisis tellus. Mauris consequat consectetur cursus. Nam euismod nulla eu libero laoreet ultricies. Sed vehicula non libero at ornare. Aliquam non ante efficitur, feugiat sem quis, ultrices dolor. Nam libero sapien, tincidunt sit amet nulla ut, efficitur maximus metus. </p>
-        <div>read more</div>
+
+        <div class="post">
+          <h4>Another Post About A Thing</h4>
+          <div class="thumbnail">
+            <img src="assets/images/rat.jpg">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi libero, euismod finibus ex a, faucibus facilisis tellus. Mauris consequat consectetur cursus. Nam euismod nulla eu libero laoreet ultricies. Sed vehicula non libero at ornare. </p>
+          <a href="/"><div>read more</div></a>
+        </div>
+
+        <div class="post">
+          <h4>Guess I Should Write Something</h4>
+          <div class="thumbnail">
+            <img src="assets/images/rat.jpg">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi libero, euismod finibus ex a, faucibus facilisis tellus. Mauris consequat consectetur cursus. Nam euismod nulla eu libero laoreet ultricies. Sed vehicula non libero at ornare. </p>
+          <a href="/"><div>read more</div></a>
+        </div>
+
       </div>
     </div>
