@@ -72,7 +72,19 @@
 
       <a href="/skills"><div class="mobile_show"><div class="button">View Education and Skills</div></div></a>
 
-
+<!--
+  var jobs = document.querySelectorAll('.job');
+  for(var i=0; i<jobs.length; i++) {
+    var job = jobs[i];
+    var button = job.querySelector('.hide');
+    button.addEventListener('click', function(event) {
+      job.classList.toggle('minimized');
+    }
+  }
+  .job.minimized ul {
+    display: none;
+  }
+ -->
 
       <script>
         function showDetails1() {
