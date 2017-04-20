@@ -1,0 +1,24 @@
+{
+  "name": "marykatefain",
+  "version": "1.0.0",
+  "description": "Mary Kate Fain",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "./node_modules/.bin/wick compile www _build && ./node_modules/.bin/surge _build marykatefain.surge.sh",
+    "start": "./node_modules/.bin/wick server www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marykatefain/personalsite.git"
+  },
+  "author": "Mary Kate Fain",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/marykatefain/personalsite/issues"
+  },
+  "homepage": "https://github.com/marykatefain/personalsite#readme",
+  "devDependencies": {
+    "wick": "latest",
+    "surge": "latest"
+  }
+}
