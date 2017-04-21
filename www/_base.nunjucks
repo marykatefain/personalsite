@@ -4,8 +4,25 @@
   <head>
     <title>Mary Kate Fain</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+      <!-- Meta -->
+      <meta name="description" content="Mare Kate Fain - Philly Hactivist">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <meta name="theme-color" content="#2c2c2c">
+      <meta name="msapplication-config" content="/browserconfig.xml">
+      <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+
+      <!-- Open Graph protocol -->
+      <meta property="og:title" content="Mary Kate Fain">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="http://marykatefain.surge.sh">
+      <meta property="og:image" content="http://marykatefain.surge.sh/assets/images/face2.jpg">
+      <meta property="og:description" content="Philadelphia Hactivist.">
+      <meta property="og:locale" content="en_US">
+
+
   </head>
 
   <body>
@@ -15,7 +32,7 @@
             <a href="index.html">
               <div class="title">
                 <h1>Mary Kate Fain</h1>
-                <div class="subtitle">Hacktivist in training</div>
+                <div class="subtitle">Pahildelphia Hactivist.</div>
               </div>
             </a>
           <div class="nav">
