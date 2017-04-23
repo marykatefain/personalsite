@@ -307,6 +307,10 @@ footer p {
   margin: 0 auto;
 }
 
+@media (max-width: 650px) {
+  footer p {
+    display: block;
+  }
 
 footer a:hover {
   color: white;

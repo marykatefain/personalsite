@@ -52,10 +52,16 @@
     </div>
 
     <footer>
-      <div class="social">
-      </div>
-      <p>e: mkfain1@gmail.com | p: 610-914-7610 | <a href="https://www.linkedin.com/in/marykatefain" target="_blank">Connect on LinkedIn</a></p>
-      <p> | This website is licensed under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
+      <p>e: mkfain1@gmail.com<span class ="mobile_hide"> |</span> </p>
+
+      <p>p: 610-914-7610 <span class ="mobile_hide"> |</span> </p>
+
+      <p><a href="https://github.com/marykatefain" target="_blank">View Github Profile</a><span class ="mobile_hide"> |</span></p>
+
+      <p><a href="https://www.linkedin.com/in/marykatefain" target="_blank">Connect on LinkedIn</a><span class ="mobile_hide"> |</span> </p>
+
+      <p>This website is licensed under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a></p>
+
     </footer>
 
   </body>
