@@ -301,6 +301,7 @@ a:hover {
 .contact-block p {
   margin: 5px;
   font-size: 1rem;
+  max-width: inherit;
 }
 
 footer {
