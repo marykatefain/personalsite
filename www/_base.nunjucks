@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Mary Kate Fain</title>
+    <title> {% block title %}{% endblock %} | Mary Kate Fain</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <script src="https://use.fontawesome.com/1a71674110.js"></script>

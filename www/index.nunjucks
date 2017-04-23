@@ -1,5 +1,9 @@
 {% extends "_base.nunjucks" %}
 
+{% block title %}
+  Home
+{% endblock %}
+
 {% block content %}
 
   <div class="all_content">

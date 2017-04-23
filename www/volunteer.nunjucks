@@ -1,5 +1,9 @@
 {% extends "_base.nunjucks" %}
 
+{% block title %}
+  Volunteer Work
+{% endblock %}
+
 {% block content %}
 
   <h2>My Volunteer Experience</h2>
