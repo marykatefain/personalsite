@@ -311,6 +311,7 @@ footer p {
   footer p {
     display: block;
   }
+}
 
 footer a:hover {
   color: white;
