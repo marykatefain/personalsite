@@ -6,6 +6,7 @@ body {
   background: #2c2c2c;
   color: white;
   margin: 0;
+  font-family: 'Scope One', serif;
 }
 
 .hidden {
@@ -109,6 +110,7 @@ h1 {
   margin-bottom: 0px;
   color: #FFA07A;
   font-size: 4vw;
+  font-family: 'Karla', sans-serif;
 }
 
 @media (max-width: 650px) {
@@ -120,6 +122,8 @@ h1 {
 h2 {
   color: white;
   font-size: 32px;
+  font-family: 'Karla', sans-serif;
+
 }
 
 h4 {
