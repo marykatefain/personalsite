@@ -290,6 +290,18 @@ a:hover {
   font-style: normal;
 }
 
+.contact-block {
+  margin-bottom: 30px;
+}
+
+.contact-block h3 {
+  margin: 5px;
+}
+
+.contact-block p {
+  margin: 5px;
+  font-size: 1rem;
+}
 
 footer {
   text-align: center;

@@ -5,8 +5,32 @@
 {% endblock %}
 
 {% block content %}
-
+<div class="contact-block">
   <h2>Contact</h2>
-  <p>Email me at: mkfain1@gmail.com</p>
+  <h3>Let's grab coffee!</h3>
+  <p>I'm always happy to chat with people looking to connect over professional opportunities or activism. Text is the best way to connect with me quickly:</p>
+  <p>Email: mkfain1@gmail.com</p>
+  <p>Call or text: 610-914-7610</p>
+</div>
+
+<div class="contact-block">
+  <h3>Connect with Candlewaster:</h3>
+  <p>Email: hello@candlewaster.co</p>
+  <p><a href="https://candlewaster.co/" target="_blank">View website</a></p>
+</div>
+
+<div class="contact-block">
+  <h3>Connect with DxE Philly:</h3>
+  <p><a href="https://www.facebook.com/dxephilly" target="_blank">Like us on Facebook</a></p>
+  <p>Email: dxephiladelphia@gmail.com</p>
+  <p><a href="http://dxephilly.org" target="_blank">View website</a></p>
+</div>
+
+<div class="contact-block">
+  <h3>Connect with Philly Animal Rights Alliance:</h3>
+  <p><a href="https://www.facebook.com/phillyanimalrights" target="_blank">Like us on Facebook</a></p>
+  <p>Email: phillyanimalrights@gmail.com</p>
+  <p><a href="http://phillyara.surge.sh/" target="_blank">View website</a></p>
+</div>
 
 {% endblock %}
