@@ -1,7 +1,0 @@
-{% extends "_base.nunjucks" %}
-
-{% block content %}
-
-  {% include "skills_list.nunjucks" %}
-
-{% endblock %}

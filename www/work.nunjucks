@@ -70,7 +70,7 @@
 
       </div>
 
-      <a href="/skills"><div class="mobile_show"><div class="button">View Education and Skills</div></div></a>
+      <div class="mobile_show" id="skills-button"><div class="button" onclick="showSkills()">View Education and Skills</div></div>
 
 <!--
   var jobs = document.querySelectorAll('.job');
@@ -137,11 +137,44 @@
           document.getElementById('Details5').style.display = "inline";
           document.getElementById('hideDetails5').style.display = "none";
         }
+        function showSkills() {
+          document.getElementById('skills').style.display = "inline-block";
+        }
       </script>
 
     </div>
-    <div class="sidebar">
-      {% include "skills_list.nunjucks" %}
+    <div class="sidebar" id="skills">
+      <h3>Education</h3>
+      <h4>B.S., Applied Psychology</h4>
+      <ul>
+        <li>Ithaca College, NY</li>
+        <li>Graduated Cum Laude</li>
+        <li>Concentration in Neuroscience</li>
+      </ul>
+      <h4>Certified in HTML, CSS, and JavaScript</h4>
+      <ul>
+        <li><a href="/assets/mary_kate_fain_HTML_cert.pdf" target="_blank">View HTML certificate</a></li>
+        <li><a href="/assets/mary_kate_fain_CSS_cert.pdf" target="_blank">View CSS certificate</a></li>
+        <li><a href="/assets/mary_kate_fain_JS_cert.pdf" target="_blank">View JavaScript certificate</a></li>
+        <li><a href="https://github.com/marykatefain" target="_blank">View Github Profile</a></li>
+      </ul>
+      <h4>Other Technical Skills</h4>
+      <ul>
+        <li>Web Development and Design</li>
+        <li>Node JS, Express, Nunjucks, various CMSs</li>
+        <li>CRM Data Management (AgencyBloc, Salesforce)</li>
+        <li>Statistical Analysis, SPSS</li>
+        <li>Basic Graphic Design</li>
+      </ul>
+      <h4>Other Skills</h4>
+      <ul>
+        <li>Community Engagement</li>
+        <li>Event Planning</li>
+        <li>Project Management</li>
+        <li>Public Speaking</li>
+        <li>Social Media and Press</li>
+        <li>Conflict Management</li>
+      </ul>
     </div>
   </div>
 

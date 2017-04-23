@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    {% include "organizations.nunjucks" %}
+    {% include "blogs.nunjucks" %}
 
   </div>
 
