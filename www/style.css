@@ -310,7 +310,8 @@ footer {
   background-color: #FFA07A;
   margin-top: 60px;
   padding: 20px 0;
-  color: #2c2c2c
+  color: #2c2c2c;
+  font-size: 1.1rem;
 }
 
 footer a {
