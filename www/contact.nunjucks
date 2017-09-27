@@ -21,17 +21,17 @@
 </div>
 
 <div class="contact-block">
-  <h3>Connect with DxE Philly:</h3>
-  <p><a href="https://www.facebook.com/dxephilly" target="_blank">Like us on Facebook</a></p>
+  <h3>Connect with Liberation Philly:</h3>
+  <p><a href="https://www.facebook.com/liberationphilly/" target="_blank">Like us on Facebook</a></p>
   <p>Email: dxephiladelphia@gmail.com</p>
-  <p><a href="http://dxephilly.org" target="_blank">View website</a></p>
+  <p><a href="http://liberationphilly.org" target="_blank">View website</a></p>
 </div>
 
 <div class="contact-block">
-  <h3>Connect with Philly Animal Rights Alliance:</h3>
-  <p><a href="https://www.facebook.com/phillyanimalrights" target="_blank">Like us on Facebook</a></p>
-  <p>Email: phillyanimalrights@gmail.com</p>
-  <p><a href="http://phillyara.surge.sh/" target="_blank">View website</a></p>
+  <h3>Connect with Uptwinkles:</h3>
+  <p>Email: hello@uptwinkles.co</p>
+  <p><a href="http://uptwinkles.co" target="_blank">View website</a></p>
 </div>
+
 
 {% endblock %}
