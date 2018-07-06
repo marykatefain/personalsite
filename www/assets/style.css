@@ -50,6 +50,12 @@ body {
   display: block;
 }
 
+@media (max-width:800px) {
+  .nav a {
+    font-size: 12px;
+  }
+}
+
 .nav a:hover,
 .nav a.active {
   color: #FFA07A;
