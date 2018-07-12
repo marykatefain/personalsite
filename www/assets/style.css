@@ -339,17 +339,13 @@ img.thumbnail {
 .portfolio-card {
   width: 350px;
   height: auto;
-  background-color: #B0E0E6;
+  background-color: #FEFDFB;
   border-radius: 5px;
   padding: 10px;
   padding-bottom: 70px;
   margin: 10px;
   box-shadow: 1px 1px #2c2c2c;
   position: relative;
-}
-
-.portfolio-card:nth-child(even) {
-  background-color: #FFA07A;
 }
 
 
@@ -382,19 +378,11 @@ img.thumbnail {
   font-size: 14px;
 }
 
-.portfolio-card:nth-child(odd) a.call-to-action-button {
-  color: #FFA07A;
-}
-
-.portfolio-card:nth-child(even) a.call-to-action-button {
+.portfolio-card: a.call-to-action-button {
   color: #B0E0E6;
 }
 
-.portfolio-card:nth-child(odd) a.call-to-action-button:hover {
-  color: white;
-}
-
-.portfolio-card:nth-child(even) a.call-to-action-button:hover {
+.portfolio-card: a.call-to-action-button:hover {
   color: white;
 }
 
